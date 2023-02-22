@@ -9,6 +9,4 @@ WORKDIR /nezuko
 
 COPY . /nezuko
 
-RUN yarn
-
 CMD ["node", "."]
