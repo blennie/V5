@@ -6,8 +6,6 @@ WORKDIR /Drips/Zimbotv4
 
 ENV TZ=Africa/Harare
 
-RUN npm install
+RUN yarn
 
-RUN npm install supervisor -g
-RUN yarn install --ignore-engines
 CMD ["node", "index.js"]
